@@ -1,4 +1,22 @@
 # Credit Card Customer Complaint Performance Dashboard
+
+## Table of Contents
+
+- [Project Overview](#project-overview)
+- [Objectives](#objectives)
+- [Key Performance Indicators ](#key-performance-indicators)
+- [Tools & Skills](#tools--skills)
+- [Dataset Overview](#dataset-overview)
+- [Data Cleaning Process](#data-cleaning-process)
+- [Dashboard Features](#dashboard-features)
+- [Key Insights  ](#key-insights)
+- [Business Recommendations](#business-recommendations)
+- [Business Value](#business-value)
+- [Project Structure](#project-structure)
+- [Author](#author)
+----
+
+## Project Overview
 The Credit Card Customer Complaint Performance Dashboard is an interactive Excel dashboard designed to analyze customer complaints from 2023 to 2025.
 The dashboard provides insights into complaint trends, company performance, response efficiency, and complaint resolution outcomes. It enables users to filter data dynamically by year, company, and issue to explore patterns and performance changes.
 
@@ -16,9 +34,8 @@ This project aims to:
 - Identify the most common complaint issues
 - Compare company-level complaint performance
 - Monitor complaint trends over time
---- 
-
-## Key Performance Indicators (KPIs)
+  
+## Key Performance Indicators 
 The dashboard tracks the following KPIs:
 - Total Complaints
 - Year-over-Year (YoY) Change in Complaints
@@ -28,7 +45,7 @@ The dashboard tracks the following KPIs:
 
 All KPIs are dynamic and update automatically based on slicer selections.
 
-## Tools and Skills Used
+## Tools & Skills 
  ### Microsoft Excel
 
 Core Excel Features:
@@ -44,7 +61,10 @@ Core Excel Features:
 ### Data Transformation – Power Query
 Power Query was used to clean and structure the raw dataset before analysis.
 
-### Dataset Overview
+## Dataset Overview
+### Source : Customer Financial Protection Bureau (CFPB) Complaint Dataset
+Filtered from the CFPB complaint database,this dataset contains credit card related to customer complaint records from 2023 to 2025, 
+
 columns:
 
 Date received, Product, Sub-product,	Issue,	Sub-issue,	Consumer complaint narrative,	Company public response,	Company,	State,	ZIP code,	  Tags,	Consumer consent provided?, Submitted via,	Date sent to company,	Company response to consumer,	Timely response?,	Consumer disputed?,	Complaint ID
@@ -73,10 +93,13 @@ The following columns were renamed for consistency
 
 | Old Name    | New Name   |
 |----------|----------|      
+|Consumer complaint narrative | Complaint Text
+|Company public response | Public Response
+|Consumer consent provided? | Consumer Consent
+| Submitted via | Channel
+
 
 This cleaning process ensures accurate reporting and allows automatic updates when new data is added.
-
-
 
 #### View of the dataset after the data cleaning process
 <img width="1319" height="477" alt="CLEAN COMPLAINTS VIEW" src="https://github.com/user-attachments/assets/a1f224ab-037a-4f10-867c-ee336e4ee708" />
@@ -95,7 +118,7 @@ The dashboard includes:
 - Donut chart for complaint status distribution
 - Company performance comparison table
 
-## Key Insights ( 2023–2025 )
+## Key Insights 
 1. Complaint Volume Trend
 
 A total of 19,417 complaints were recorded across the three-year period. Complaint levels fluctuate over time, indicating variations in customer experience and service demand.
@@ -183,23 +206,14 @@ This dashboard provides value by:
 - Identifying high-risk complaint categories
 - Monitoring operational performance
 - Improving customer service strategy
-## Dataset
-### Source : Customer Financial Protection Bureau (CFPB) Complaint Dataset
-Filtered from the CFPB complaint database,this dataset contains credit card related to customer complaint records from 2023 to 2025, 
 
-including:
-- Complaint date
-- Company name
-- Complaint issue
-- Complaint status
-- Timely response indicator
-- Monetary relief indicator
 ## Project Structure
  Files included in this repository:
 - Credit Card Complaint Project Data
 - Credit Card Complaint Dashboard.xlsx
 - Dashboard Screenshot.png
 - README.md
+
 ## Author
 ### Sherifat Ahmed
 
