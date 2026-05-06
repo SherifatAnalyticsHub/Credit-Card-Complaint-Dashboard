@@ -44,6 +44,18 @@ Core Excel Features:
 ### Data Transformation – Power Query
 Power Query was used to clean and structure the raw dataset before analysis.
 
+### Dataset Overview
+columns:
+
+Date received, Product, Sub-product,	Issue,	Sub-issue,	Consumer complaint narrative,	Company public response,	Company,	State,	ZIP code,	  Tags,	Consumer consent provided?, Submitted via,	Date sent to company,	Company response to consumer,	Timely response?,	Consumer disputed?,	Complaint ID
+
+### Sample Preview 
+<img width="1193" height="521" alt="COMPLAINTS VIEW 1" src="https://github.com/user-attachments/assets/366bd701-8dd7-4ebb-aec3-0b407274dd4d" />
+
+
+<img width="1295" height="507" alt="COMPLAINTS VIEW 2" src="https://github.com/user-attachments/assets/3981283b-f9bf-400b-9a8e-1a993fd76b9b" />
+
+
 ## Data Cleaning Process
 The following steps were performed using Power Query:
 
@@ -55,8 +67,21 @@ The following steps were performed using Power Query:
 6. Identified and handled missing or null values
 7. Standardized text fields to ensure consistency
 8. Loaded the cleaned dataset into Excel for analysis
+9. Renamed some columns to improve clarity and consistency
+
+The following columns were renamed for consistency
+
+| Old Name    | New Name   |
+|----------|----------|      
 
 This cleaning process ensures accurate reporting and allows automatic updates when new data is added.
+
+
+
+#### View of the dataset after the data cleaning process
+<img width="1319" height="477" alt="CLEAN COMPLAINTS VIEW" src="https://github.com/user-attachments/assets/a1f224ab-037a-4f10-867c-ee336e4ee708" />
+
+<img width="1324" height="490" alt="CLEAN COMPLAINTS VIEW 2" src="https://github.com/user-attachments/assets/89579503-3682-4551-8740-86a002f61075" />
 
 ## Dashboard Features
 The dashboard includes:
