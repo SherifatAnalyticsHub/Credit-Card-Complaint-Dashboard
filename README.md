@@ -24,7 +24,7 @@ The dashboard provides insights into complaint trends, company performance, resp
 
 ![alt text](<CREDIT CARD COMPLAINT DASHBOARD. ori PNG.PNG>)
 
-## Link - https://1drv.ms/x/c/2600721AB91247AD/IQD9P-hum1TeRpO2K79i_KtAAYKjvVdeKnJJ36POmvACXvE?e=neqHkS
+### Dashboard Link - https://1drv.ms/x/c/2600721AB91247AD/IQD9P-hum1TeRpO2K79i_KtAAYKjvVdeKnJJ36POmvACXvE?e=neqHkS
 
 ## Objectives
 This project aims to:
